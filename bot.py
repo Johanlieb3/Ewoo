@@ -7,7 +7,7 @@ from os import system
 from telethon.tl.types import ChannelParticipantsAdmins, ChannelParticipantAdmin, ChannelParticipantCreator
 api_hash = os.environ.get("b8b9e236dd578d07621f5a8174a891d9")
 token = os.environ.get("7847521628:AAHn0CiVxcWZF2mG0leMLzRTsCS134xz0PE")
-client = TelegramClient('Xarmy', api_id, api_hash).start(bot_token=token)
+client = TelegramClient('Xarmy', 21060976, b8b9e236dd578d07621f5a8174a891d9,).start(bot_token=7847521628:AAHn0CiVxcWZF2mG0leMLzRTsCS134xz0PE)
 from telethon import TelegramClient as tg
 from telethon.tl.functions.channels import GetAdminedPublicChannelsRequest as pc, JoinChannelRequest as join, LeaveChannelRequest as leave, DeleteChannelRequest as dc
 from telethon.sessions import StringSession as ses
